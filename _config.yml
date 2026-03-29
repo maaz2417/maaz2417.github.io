@@ -1,3 +1,17 @@
-theme: jekyll-theme-minimal
-title: Centifyy's homepage
-description: Welcome to the era of computing and ram prices being high AF!
+# Site Settings
+title: Centifyy's Website
+description: A personal portfolio to showcase my personal creations
+author: Maaz
+email: maazarshadakhund123@gmail.com
+
+# URL Settings (Leave these blank for a standard username.github.io site)
+url: "" 
+baseurl: ""
+
+# Build Settings
+theme: jekyll-theme-minimal # This applies a clean, simple default theme
+
+# Exclude these files from being processed by Jekyll
+exclude:
+  - README.md
+  - .gitignore
