@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(26, 26, 26);
+            color: white;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(30, 30, 207);
+            font-size: 1.2rem;
+
+        }
+
+        .left {
+            font-size: 2.7rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 5px 20px;
+            font-size: 20px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: 2px solid white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(43, 0, 235);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Maaz's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="Portfolio.html"> HOME </a> </li>
+                    <li><a href="about.html"> ABOUT</a> </li>
+                    <li><a href="/"> HOME</a> </li>
+                    <li><a href="/">HOME </a> </li>
+                    <li><a href="contactme.html">CONTACT ME</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, my name is <span class="purple"><b>Maaz</b></span>
+                <div>and I am a Upcoming</div>
+                <div>Programmer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a class="btn" href="https://www.linkedin.com/in/maazarshadakhund1/"
+                        target="_blank">LINKEDIN</a>
+                    <a class="btn" href="https://github.com/maaz2417" target="_blank">GITHUB</a>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="programmerpng.png">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- The main section animations -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Youtuber.',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+</html>
